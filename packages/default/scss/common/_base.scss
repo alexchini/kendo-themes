@@ -113,7 +113,7 @@ $widget-border-width: 1px !default;
 
     // Widget
     .k-widget {
-        @extend %text-selection !optional;
+        @extend %text-selection;
         @include appearance( widget );
     }
 
