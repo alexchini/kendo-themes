@@ -155,6 +155,10 @@
             &.k-major-cell {
                 border-bottom-width: 0;
             }
+
+            &.k-heading-cell.k-side-cell:not(.k-major-cell):not(.k-scheduler-times-all-day):not(.k-last-slot-cell) {
+                border-bottom-width: 0;
+            }
         }
 
         .k-middle-row .k-scheduler-cell {
